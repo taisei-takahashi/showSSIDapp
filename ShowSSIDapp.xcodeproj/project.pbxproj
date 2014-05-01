@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A8C3DF7190EBEB6001E5480 /* 1398721356_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A8C3DF6190EBEB6001E5480 /* 1398721356_1.png */; };
+		6ABAD09B190B6BAA003C13C4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABAD09A190B6BAA003C13C4 /* Cocoa.framework */; };
+		6ABAD0A5190B6BAA003C13C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6ABAD0A3190B6BAA003C13C4 /* InfoPlist.strings */; };
+		6ABAD0A7190B6BAA003C13C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABAD0A6190B6BAA003C13C4 /* main.m */; };
+		6ABAD0AB190B6BAA003C13C4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6ABAD0A9190B6BAA003C13C4 /* Credits.rtf */; };
+		6ABAD0AE190B6BAA003C13C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABAD0AD190B6BAA003C13C4 /* AppDelegate.m */; };
+		6ABAD0B1190B6BAA003C13C4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ABAD0AF190B6BAA003C13C4 /* MainMenu.xib */; };
+		6ABAD0B3190B6BAA003C13C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ABAD0B2190B6BAA003C13C4 /* Images.xcassets */; };
+		6ABAD0BA190B6BAA003C13C4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABAD0B9190B6BAA003C13C4 /* XCTest.framework */; };
+		6ABAD0BB190B6BAA003C13C4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABAD09A190B6BAA003C13C4 /* Cocoa.framework */; };
+		6ABAD0C3190B6BAA003C13C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6ABAD0C1190B6BAA003C13C4 /* InfoPlist.strings */; };
+		6ABAD0C5190B6BAA003C13C4 /* ShowNetAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABAD0C4190B6BAA003C13C4 /* ShowNetAppTests.m */; };
+		6ABAD0CF190B7598003C13C4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABAD0CE190B7598003C13C4 /* SystemConfiguration.framework */; };
+		6AE0EA0E190C1632009D792E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AE0EA0D190C1632009D792E /* CFNetwork.framework */; };
+		6AF79FDD190E194F00C9F917 /* CoreWLAN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF79FDC190E194F00C9F917 /* CoreWLAN.framework */; };
+		6AF79FDE190E197700C9F917 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABAD09F190B6BAA003C13C4 /* Foundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6ABAD0BC190B6BAA003C13C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ABAD08F190B6BAA003C13C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ABAD096190B6BAA003C13C4;
+			remoteInfo = ShowNetApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A8C3DF6190EBEB6001E5480 /* 1398721356_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1398721356_1.png; sourceTree = "<group>"; };
+		6ABAD097190B6BAA003C13C4 /* ShowSSIDapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShowSSIDapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ABAD09A190B6BAA003C13C4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6ABAD09D190B6BAA003C13C4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6ABAD09E190B6BAA003C13C4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6ABAD09F190B6BAA003C13C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6ABAD0A2190B6BAA003C13C4 /* ShowSSIDapp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShowSSIDapp-Info.plist"; sourceTree = "<group>"; };
+		6ABAD0A4190B6BAA003C13C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6ABAD0A6190B6BAA003C13C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6ABAD0A8190B6BAA003C13C4 /* ShowSSIDapp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShowSSIDapp-Prefix.pch"; sourceTree = "<group>"; };
+		6ABAD0AA190B6BAA003C13C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		6ABAD0AC190B6BAA003C13C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6ABAD0AD190B6BAA003C13C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6ABAD0B0190B6BAA003C13C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6ABAD0B2190B6BAA003C13C4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6ABAD0B8190B6BAA003C13C4 /* ShowSSIDappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShowSSIDappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ABAD0B9190B6BAA003C13C4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6ABAD0C0190B6BAA003C13C4 /* ShowSSIDappTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShowSSIDappTests-Info.plist"; sourceTree = "<group>"; };
+		6ABAD0C2190B6BAA003C13C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6ABAD0C4190B6BAA003C13C4 /* ShowNetAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowNetAppTests.m; sourceTree = "<group>"; };
+		6ABAD0CE190B7598003C13C4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6AE0EA0D190C1632009D792E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		6AF79FDC190E194F00C9F917 /* CoreWLAN.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreWLAN.framework; path = System/Library/Frameworks/CoreWLAN.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ABAD094190B6BAA003C13C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF79FDE190E197700C9F917 /* Foundation.framework in Frameworks */,
+				6AF79FDD190E194F00C9F917 /* CoreWLAN.framework in Frameworks */,
+				6AE0EA0E190C1632009D792E /* CFNetwork.framework in Frameworks */,
+				6ABAD0CF190B7598003C13C4 /* SystemConfiguration.framework in Frameworks */,
+				6ABAD09B190B6BAA003C13C4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABAD0B5190B6BAA003C13C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABAD0BB190B6BAA003C13C4 /* Cocoa.framework in Frameworks */,
+				6ABAD0BA190B6BAA003C13C4 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6ABAD08E190B6BAA003C13C4 = {
+			isa = PBXGroup;
+			children = (
+				6A8C3DF6190EBEB6001E5480 /* 1398721356_1.png */,
+				6ABAD0A0190B6BAA003C13C4 /* ShowNetApp */,
+				6ABAD0BE190B6BAA003C13C4 /* ShowNetAppTests */,
+				6ABAD099190B6BAA003C13C4 /* Frameworks */,
+				6ABAD098190B6BAA003C13C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6ABAD098190B6BAA003C13C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ABAD097190B6BAA003C13C4 /* ShowSSIDapp.app */,
+				6ABAD0B8190B6BAA003C13C4 /* ShowSSIDappTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6ABAD099190B6BAA003C13C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AF79FDC190E194F00C9F917 /* CoreWLAN.framework */,
+				6AE0EA0D190C1632009D792E /* CFNetwork.framework */,
+				6ABAD0CE190B7598003C13C4 /* SystemConfiguration.framework */,
+				6ABAD09A190B6BAA003C13C4 /* Cocoa.framework */,
+				6ABAD0B9190B6BAA003C13C4 /* XCTest.framework */,
+				6ABAD09C190B6BAA003C13C4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6ABAD09C190B6BAA003C13C4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6ABAD09D190B6BAA003C13C4 /* AppKit.framework */,
+				6ABAD09E190B6BAA003C13C4 /* CoreData.framework */,
+				6ABAD09F190B6BAA003C13C4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		6ABAD0A0190B6BAA003C13C4 /* ShowNetApp */ = {
+			isa = PBXGroup;
+			children = (
+				6ABAD0AC190B6BAA003C13C4 /* AppDelegate.h */,
+				6ABAD0AD190B6BAA003C13C4 /* AppDelegate.m */,
+				6ABAD0AF190B6BAA003C13C4 /* MainMenu.xib */,
+				6ABAD0B2190B6BAA003C13C4 /* Images.xcassets */,
+				6ABAD0A1190B6BAA003C13C4 /* Supporting Files */,
+			);
+			path = ShowNetApp;
+			sourceTree = "<group>";
+		};
+		6ABAD0A1190B6BAA003C13C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6ABAD0A2190B6BAA003C13C4 /* ShowSSIDapp-Info.plist */,
+				6ABAD0A3190B6BAA003C13C4 /* InfoPlist.strings */,
+				6ABAD0A6190B6BAA003C13C4 /* main.m */,
+				6ABAD0A8190B6BAA003C13C4 /* ShowSSIDapp-Prefix.pch */,
+				6ABAD0A9190B6BAA003C13C4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6ABAD0BE190B6BAA003C13C4 /* ShowNetAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				6ABAD0C4190B6BAA003C13C4 /* ShowNetAppTests.m */,
+				6ABAD0BF190B6BAA003C13C4 /* Supporting Files */,
+			);
+			path = ShowNetAppTests;
+			sourceTree = "<group>";
+		};
+		6ABAD0BF190B6BAA003C13C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6ABAD0C0190B6BAA003C13C4 /* ShowSSIDappTests-Info.plist */,
+				6ABAD0C1190B6BAA003C13C4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6ABAD096190B6BAA003C13C4 /* ShowSSIDapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ABAD0C8190B6BAA003C13C4 /* Build configuration list for PBXNativeTarget "ShowSSIDapp" */;
+			buildPhases = (
+				6ABAD093190B6BAA003C13C4 /* Sources */,
+				6ABAD094190B6BAA003C13C4 /* Frameworks */,
+				6ABAD095190B6BAA003C13C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShowSSIDapp;
+			productName = ShowNetApp;
+			productReference = 6ABAD097190B6BAA003C13C4 /* ShowSSIDapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6ABAD0B7190B6BAA003C13C4 /* ShowSSIDappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ABAD0CB190B6BAA003C13C4 /* Build configuration list for PBXNativeTarget "ShowSSIDappTests" */;
+			buildPhases = (
+				6ABAD0B4190B6BAA003C13C4 /* Sources */,
+				6ABAD0B5190B6BAA003C13C4 /* Frameworks */,
+				6ABAD0B6190B6BAA003C13C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ABAD0BD190B6BAA003C13C4 /* PBXTargetDependency */,
+			);
+			name = ShowSSIDappTests;
+			productName = ShowNetAppTests;
+			productReference = 6ABAD0B8190B6BAA003C13C4 /* ShowSSIDappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6ABAD08F190B6BAA003C13C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Taisei;
+				TargetAttributes = {
+					6ABAD0B7190B6BAA003C13C4 = {
+						TestTargetID = 6ABAD096190B6BAA003C13C4;
+					};
+				};
+			};
+			buildConfigurationList = 6ABAD092190B6BAA003C13C4 /* Build configuration list for PBXProject "ShowSSIDapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6ABAD08E190B6BAA003C13C4;
+			productRefGroup = 6ABAD098190B6BAA003C13C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6ABAD096190B6BAA003C13C4 /* ShowSSIDapp */,
+				6ABAD0B7190B6BAA003C13C4 /* ShowSSIDappTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6ABAD095190B6BAA003C13C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABAD0A5190B6BAA003C13C4 /* InfoPlist.strings in Resources */,
+				6ABAD0B3190B6BAA003C13C4 /* Images.xcassets in Resources */,
+				6ABAD0AB190B6BAA003C13C4 /* Credits.rtf in Resources */,
+				6ABAD0B1190B6BAA003C13C4 /* MainMenu.xib in Resources */,
+				6A8C3DF7190EBEB6001E5480 /* 1398721356_1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABAD0B6190B6BAA003C13C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABAD0C3190B6BAA003C13C4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6ABAD093190B6BAA003C13C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABAD0AE190B6BAA003C13C4 /* AppDelegate.m in Sources */,
+				6ABAD0A7190B6BAA003C13C4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABAD0B4190B6BAA003C13C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABAD0C5190B6BAA003C13C4 /* ShowNetAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6ABAD0BD190B6BAA003C13C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ABAD096190B6BAA003C13C4 /* ShowSSIDapp */;
+			targetProxy = 6ABAD0BC190B6BAA003C13C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6ABAD0A3190B6BAA003C13C4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ABAD0A4190B6BAA003C13C4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6ABAD0A9190B6BAA003C13C4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ABAD0AA190B6BAA003C13C4 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		6ABAD0AF190B6BAA003C13C4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ABAD0B0190B6BAA003C13C4 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		6ABAD0C1190B6BAA003C13C4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ABAD0C2190B6BAA003C13C4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6ABAD0C6190B6BAA003C13C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6ABAD0C7190B6BAA003C13C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6ABAD0C9190B6BAA003C13C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShowNetApp/ShowSSIDapp-Prefix.pch";
+				INFOPLIST_FILE = "ShowNetApp/ShowSSIDapp-Info.plist";
+				PRODUCT_NAME = ShowSSIDapp;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6ABAD0CA190B6BAA003C13C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShowNetApp/ShowSSIDapp-Prefix.pch";
+				INFOPLIST_FILE = "ShowNetApp/ShowSSIDapp-Info.plist";
+				PRODUCT_NAME = ShowSSIDapp;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6ABAD0CC190B6BAA003C13C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShowNetApp.app/Contents/MacOS/ShowNetApp";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShowNetApp/ShowNetApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ShowNetAppTests/ShowSSIDappTests-Info.plist";
+				PRODUCT_NAME = ShowSSIDappTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6ABAD0CD190B6BAA003C13C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShowNetApp.app/Contents/MacOS/ShowNetApp";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShowNetApp/ShowNetApp-Prefix.pch";
+				INFOPLIST_FILE = "ShowNetAppTests/ShowSSIDappTests-Info.plist";
+				PRODUCT_NAME = ShowSSIDappTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6ABAD092190B6BAA003C13C4 /* Build configuration list for PBXProject "ShowSSIDapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABAD0C6190B6BAA003C13C4 /* Debug */,
+				6ABAD0C7190B6BAA003C13C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ABAD0C8190B6BAA003C13C4 /* Build configuration list for PBXNativeTarget "ShowSSIDapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABAD0C9190B6BAA003C13C4 /* Debug */,
+				6ABAD0CA190B6BAA003C13C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ABAD0CB190B6BAA003C13C4 /* Build configuration list for PBXNativeTarget "ShowSSIDappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABAD0CC190B6BAA003C13C4 /* Debug */,
+				6ABAD0CD190B6BAA003C13C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6ABAD08F190B6BAA003C13C4 /* Project object */;
+}
